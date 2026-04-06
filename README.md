@@ -42,13 +42,10 @@ This app follows **MVVM (Model-View-ViewModel)** architecture:
 ## 📸 Screenshots
 
 ><p align="center">
-  <img src="app/img.png" width="220"/>
-  <img src="app/img_1.png" width="220"/>
-</p>
-
-<p align="center">
-  <img src="app/img_2.png" width="220"/>
-  <img src="app/img_3.png" width="220"/>
+  <img src="app/img.png" width="250"/>
+  <img src="app/img_1.png" width="250"/>
+  <img src="app/img_2.png" width="250"/>
+  <img src="app/img_3.png" width="250"/>
 </p>
 
 * 🏠 Home Screen
