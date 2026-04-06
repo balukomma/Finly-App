@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_green">#27AE75</color>
+    <color name="primary_green_light">#E0F2F1</color>
+    <color name="primary_green_dark">#0D9488</color>
+    
+    <color name="text_dark">#1A1C1E</color>
+    <color name="text_gray">#94A3B8</color>
+
+    <color name="background_gray">#F8F9FA</color>
+    <color name="surface_white">#FFFFFF</color>
+    
+    <color name="expense_red">#FF5252</color>
+    <color name="expense_red_light">#FFEBEE</color>
+    
+    <color name="income_green">#27AE75</color>
+    <color name="income_green_box">#E8F5EE</color>
+    <color name="expense_red_box">#FFEBEE</color>
+    
+    <color name="category_entertainment">#9575CD</color>
+    <color name="category_food">#FF7043</color>
+    <color name="category_transport">#4DB6AC</color>
+    
+    <color name="pill_orange_bg">#FFF3E0</color>
+    <color name="pill_orange_text">#EF6C00</color>
+    
+    <color name="gradient_start">#0D9488</color>
+    <color name="gradient_end">#27AE75</color>
+
+    <!-- Theme aware colors -->
+    <color name="text_primary">#2D3142</color>
+    <color name="text_secondary">#662D3142</color>
+    <color name="text_tertiary">#64748B</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="card_income_bg">#E8F5EE</color>
+    <color name="card_expense_bg">#FFEBEE</color>
+
+    <color name="card_summary_red_bg">#FFF1F2</color>
+    <color name="card_summary_orange_bg">#FFF7ED</color>
+</resources>

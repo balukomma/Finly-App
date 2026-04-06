@@ -1,0 +1,571 @@
+﻿Initialized native services in: C:\Users\DELL\.gradle\native
+Initialized jansi services in: C:\Users\DELL\.gradle\native
+The client will now receive all logging from the daemon (pid: 20320). The daemon log file: C:\Users\DELL\.gradle\daemon\9.3.1\daemon-20320.out.log
+Starting 133rd build in daemon [uptime: 8 hrs 27 mins 36.802 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [C:\Finly] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file 'C:\Finly\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Finly\build.gradle.kts'.
+Included projects: [root project 'Finly', project ':app']
+
+> Configure project :
+Evaluating root project 'Finly' using build file 'C:\Finly\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.7.3', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.21', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Finly\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.7.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.21']
+Resolved plugin [id: 'kotlin-kapt']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:dataBindingMergeDependencyArtifactsDebug', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:dataBindingGenBaseClassesDebug', task ':app:checkDebugAarMetadata', task ':app:mapDebugSourceSetPaths', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kaptGenerateStubsDebugKotlin', task ':app:kaptDebugKotlin', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:preBuild (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:preDebugBuild (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :app:dataBindingMergeDependencyArtifactsDebug (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:dataBindingMergeDependencyArtifactsDebug (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+Caching disabled for task ':app:dataBindingMergeDependencyArtifactsDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:dataBindingMergeDependencyArtifactsDebug' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#7657,Execution worker,5,main]) started.
+:app:generateDebugResValues (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#7657,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugResources (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:packageDebugResources (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#7657,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:dataBindingGenBaseClassesDebug (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:dataBindingGenBaseClassesDebug (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE
+Caching disabled for task ':app:dataBindingGenBaseClassesDebug' because:
+  Build cache is disabled
+Skipping task ':app:dataBindingGenBaseClassesDebug' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#7658,Execution worker Thread 2,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#7658,Execution worker Thread 2,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#7657,Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#7657,Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#7657,Execution worker,5,main]) started.
+:app:processDebugMainManifest (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#7657,Execution worker,5,main]) started.
+:app:processDebugManifest (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#7657,Execution worker,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#7657,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:kaptGenerateStubsDebugKotlin (Thread[#7657,Execution worker,5,main]) started.
+:app:kaptGenerateStubsDebugKotlin (Thread[#7657,Execution worker,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:javaPreCompileDebug (Thread[#7659,Execution worker Thread 3,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugShaders (Thread[#7659,Execution worker Thread 3,5,main]) started.
+:app:mergeDebugShaders (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+Resolve mutations for :app:compileDebugShaders (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:compileDebugShaders (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugAssets (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:generateDebugAssets (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:mergeDebugAssets (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+Resolve mutations for :app:compressDebugAssets (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:compressDebugAssets (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:compressDebugAssets UP-TO-DATE
+Caching disabled for task ':app:compressDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressDebugAssets' as it is up-to-date.
+Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:checkDebugDuplicateClasses (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:desugarDebugFileDependencies (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:desugarDebugFileDependencies (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarDebugFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexDebug (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:mergeExtDexDebug (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeLibDexDebug (Thread[#7656,included builds,5,main]) started.
+:app:mergeLibDexDebug (Thread[#7656,included builds,5,main]) started.
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeLibDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#7656,included builds,5,main]) started.
+:app:mergeDebugJniLibFolders (Thread[#7656,included builds,5,main]) started.
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeDebugNativeLibs (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:mergeDebugNativeLibs (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+Skipping task ':app:mergeDebugNativeLibs' as it has no source files and no previous output files.
+Resolve mutations for :app:stripDebugDebugSymbols (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:stripDebugDebugSymbols (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+Skipping task ':app:stripDebugDebugSymbols' as it has no source files and no previous output files.
+Resolve mutations for :app:validateSigningDebug (Thread[#7660,Execution worker Thread 4,5,main]) started.
+:app:validateSigningDebug (Thread[#7660,Execution worker Thread 4,5,main]) started.
+
+> Task :app:validateSigningDebug UP-TO-DATE
+Caching disabled for task ':app:validateSigningDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:validateSigningDebug' as it is up-to-date.
+Resolve mutations for :app:writeDebugAppMetadata (Thread[#7656,included builds,5,main]) started.
+:app:writeDebugAppMetadata (Thread[#7656,included builds,5,main]) started.
+
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+Caching disabled for task ':app:writeDebugAppMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#7656,included builds,5,main]) started.
+:app:writeDebugSigningConfigVersions (Thread[#7656,included builds,5,main]) started.
+
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+
+> Task :app:kaptGenerateStubsDebugKotlin
+Caching disabled for task ':app:kaptGenerateStubsDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptGenerateStubsDebugKotlin' is not up-to-date because:
+  Input property 'sources' file C:\Finly\app\src\main\java\com\finly\app\MainActivity.kt has changed.
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=true, modifiedFiles=[C:\Finly\app\src\main\java\com\finly\app\MainActivity.kt], deletedFiles=[], classpathChanges=NoChanges, workingDir=C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\local-state\build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, icFeatures=IncrementalCompilationFeatures(withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false), outputFiles=[C:\Finly\app\build\tmp\kapt3\incrementalData\debug, C:\Finly\app\build\tmp\kapt3\stubs\debug, C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable, C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\local-state])
+w: Kapt currently doesn't support language version 2.0+. Falling back to 1.9.
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:kaptDebugKotlin (Thread[#7657,Execution worker,5,main]) started.
+:app:kaptDebugKotlin (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:kaptDebugKotlin
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+Caching disabled for task ':app:kaptDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptDebugKotlin' is not up-to-date because:
+  Input property 'source' file C:\Finly\app\build\tmp\kapt3\stubs\debug\com\finly\app\MainActivity.java has changed.
+Running kapt annotation processing using the Gradle Worker API
+Full list of impacted classpath names: []. Took 172ms.
+Using workers NONE isolation mode to run kapt
+Resolve mutations for :app:compileDebugKotlin (Thread[#7657,Execution worker,5,main]) started.
+:app:compileDebugKotlin (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:compileDebugKotlin
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Input property 'sources' file C:\Finly\app\src\main\java\com\finly\app\MainActivity.kt has changed.
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+Kotlin source files: C:\Finly\app\src\main\java\com\finly\app\BarChartView.kt, C:\Finly\app\src\main\java\com\finly\app\ContributionAdapter.kt, C:\Finly\app\src\main\java\com\finly\app\data\AppDatabase.kt, C:\Finly\app\src\main\java\com\finly\app\data\Contribution.kt, C:\Finly\app\src\main\java\com\finly\app\data\Goal.kt, C:\Finly\app\src\main\java\com\finly\app\data\GoalDao.kt, C:\Finly\app\src\main\java\com\finly\app\data\GoalRepository.kt, C:\Finly\app\src\main\java\com\finly\app\data\SettingsRepository.kt, C:\Finly\app\src\main\java\com\finly\app\data\Transaction.kt, C:\Finly\app\src\main\java\com\finly\app\data\TransactionDao.kt, C:\Finly\app\src\main\java\com\finly\app\data\TransactionRepository.kt, C:\Finly\app\src\main\java\com\finly\app\DonutChartView.kt, C:\Finly\app\src\main\java\com\finly\app\FinlyViewModel.kt, C:\Finly\app\src\main\java\com\finly\app\GoalAdapter.kt, C:\Finly\app\src\main\java\com\finly\app\HeatmapView.kt, C:\Finly\app\src\main\java\com\finly\app\LineChartView.kt, C:\Finly\app\src\main\java\com\finly\app\MainActivity.kt, C:\Finly\app\src\main\java\com\finly\app\TransactionAdapter.kt, C:\Finly\app\src\main\java\com\finly\app\WeeklyBarChartView.kt
+Java source files: C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ActivityMainBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\DialogAddSavingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\DialogClearAllDataBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\DialogDeleteTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentAddTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentCreateGoalBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentCurrencySelectionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentDashboardBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentEditTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentExportDataBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentGoalDetailsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentGoalsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentInsightsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentMonthlyIncomeBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentNotificationSettingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentOnboardingBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentProfileSettingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSettingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSetup1Binding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSetup2Binding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSmartAlertsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSplashBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentTransactionDetailsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentTransactionsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentWeeklyComparisonBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemAddCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemBudgetCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemContributionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemCurrencyBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemDateHeaderBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemFrequentTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemGoalBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemInsightCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemLegendBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemMetricBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemNoSpendCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemSmartAlertBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemWeekCategoryBinding.java, C:\Finly\app\build\generated\source\kapt\debug\com\finly\app\data\AppDatabase_Impl.java, C:\Finly\app\build\generated\source\kapt\debug\com\finly\app\data\GoalDao_Impl.java, C:\Finly\app\build\generated\source\kapt\debug\com\finly\app\data\TransactionDao_Impl.java
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=true, modifiedFiles=[C:\Finly\app\src\main\java\com\finly\app\MainActivity.kt], deletedFiles=[], classpathChanges=NoChanges, workingDir=C:\Finly\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Finly\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, icFeatures=IncrementalCompilationFeatures(withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false), outputFiles=[C:\Finly\app\build\tmp\kotlin-classes\debug, C:\Finly\app\build\kotlin\compileDebugKotlin\cacheable, C:\Finly\app\build\kotlin\compileDebugKotlin\local-state])
+w: file:///C:/Finly/app/src/main/java/com/finly/app/MainActivity.kt:141:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Please add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Finly/app/src/main/java/com/finly/app/MainActivity.kt:148:19 'fun onBackPressed(): Unit' is deprecated. Deprecated in Java.
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#7657,Execution worker,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac
+Custom actions are attached to task ':app:compileDebugJavaWithJavac'.
+Caching disabled for task ':app:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Task ':app:compileDebugJavaWithJavac' is not up-to-date because:
+  Input property 'classpath' file C:\Finly\app\build\tmp\kotlin-classes\debug\com\finly\app\MainActivity.class has changed.
+Compilation mode: in-process compilation
+Created classpath snapshot for incremental compilation in 0.082 secs.
+file or directory 'C:\Finly\app\src\debug\java', not found
+Compiling with toolchain 'C:\Program Files\Android\Android Studio\jbr'.
+file or directory 'C:\Finly\app\src\debug\java', not found
+Compiling with JDK Java compiler API.
+Incremental compilation of 39 classes completed in 1.02 secs.
+Class dependency analysis for incremental compilation took 0.01 secs.
+Resolve mutations for :app:processDebugJavaRes (Thread[#7657,Execution worker,5,main]) started.
+:app:processDebugJavaRes (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:processDebugJavaRes UP-TO-DATE
+file or directory 'C:\Finly\app\src\main\resources', not found
+file or directory 'C:\Finly\app\src\debug\resources', not found
+Caching disabled for task ':app:processDebugJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+Resolve mutations for :app:mergeDebugJavaResource (Thread[#7657,Execution worker,5,main]) started.
+:app:mergeDebugJavaResource (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJavaResource' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mergeDebugJavaResource' as it is up-to-date.
+Resolve mutations for :app:dexBuilderDebug (Thread[#7657,Execution worker,5,main]) started.
+:app:dexBuilderDebug (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:dexBuilderDebug
+Caching disabled for task ':app:dexBuilderDebug' because:
+  Build cache is disabled
+Task ':app:dexBuilderDebug' is not up-to-date because:
+  Input property 'projectClasses' file C:\Finly\app\build\tmp\kotlin-classes\debug\com\finly\app\MainActivity$setupCurrencyList$1$onCreateViewHolder$1.class has changed.
+  Input property 'projectClasses' file C:\Finly\app\build\tmp\kotlin-classes\debug\com\finly\app\MainActivity$setupCurrencyList$1.class has changed.
+  Input property 'projectClasses' file C:\Finly\app\build\tmp\kotlin-classes\debug\com\finly\app\MainActivity$showAddTransaction$4.class has changed.
+  and more...
+Dex builder is incremental : true 
+Processing input C:\Finly\app\build\tmp\kotlin-classes\debug
+Processing input C:\Finly\app\build\tmp\kapt3\classes\debug
+Processing input C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes
+Dexing C:\Finly\app\build\tmp\kotlin-classes\debug
+Dexing C:\Finly\app\build\tmp\kapt3\classes\debug
+Dexing C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Processing input C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar
+Dexing C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_0.jar'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_1.jar'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_3.jar'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_2.jar'
+Done with all dex archive conversions
+Resolve mutations for :app:mergeProjectDexDebug (Thread[#7657,Execution worker,5,main]) started.
+:app:mergeProjectDexDebug (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:mergeProjectDexDebug
+Caching disabled for task ':app:mergeProjectDexDebug' because:
+  Build cache is disabled
+Task ':app:mergeProjectDexDebug' is not up-to-date because:
+  Input property 'dexDirs' file C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\finly\app\MainActivity$setupCurrencyList$1$onCreateViewHolder$1.dex has changed.
+  Input property 'dexDirs' file C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\finly\app\MainActivity$setupCurrencyList$1.dex has changed.
+  Input property 'dexDirs' file C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\finly\app\MainActivity$showAddTransaction$4.dex has changed.
+  and more...
+Merging to 'C:\Finly\app\build\intermediates\dex\debug\mergeProjectDexDebug\12' with D8 from all or a subset of dex files in C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, and from all global synthetics files in 
+Resolve mutations for :app:packageDebug (Thread[#7657,Execution worker,5,main]) started.
+:app:packageDebug (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:packageDebug
+Custom actions are attached to task ':app:packageDebug'.
+Caching disabled for task ':app:packageDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:packageDebug' is not up-to-date because:
+  Input property 'dexFolders' file C:\Finly\app\build\intermediates\dex\debug\mergeProjectDexDebug\12\classes.dex has changed.
+Resolve mutations for :app:createDebugApkListingFileRedirect (Thread[#7657,Execution worker,5,main]) started.
+:app:createDebugApkListingFileRedirect (Thread[#7657,Execution worker,5,main]) started.
+
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+Caching disabled for task ':app:createDebugApkListingFileRedirect' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugApkListingFileRedirect' as it is up-to-date.
+Resolve mutations for :app:assembleDebug (Thread[#7661,Execution worker Thread 5,5,main]) started.
+:app:assembleDebug (Thread[#7661,Execution worker Thread 5,5,main]) started.
+
+> Task :app:assembleDebug
+Skipping task ':app:assembleDebug' as it has no actions.
+
+[Incubating] Problems report is available at: file:///C:/Finly/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 13s
+37 actionable tasks: 7 executed, 30 up-to-date
+Watched directory hierarchies: [C:\Finly]
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html

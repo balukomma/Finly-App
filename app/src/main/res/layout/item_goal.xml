@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="@color/background_gray"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <!-- Circular Icon -->
+            <FrameLayout
+                android:id="@+id/fl_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_circle"
+                android:backgroundTint="?attr/colorSurface"
+                android:layout_marginEnd="16dp">
+                
+                <TextView
+                    android:id="@+id/tv_goal_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="💰"
+                    android:textSize="24sp" />
+            </FrameLayout>
+
+            <!-- Titles -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/fl_icon"
+                android:layout_toStartOf="@id/fl_progress_circular"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_goal_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Emergency Fund"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_goal_amounts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 13,600 / ₹ 20,000"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <!-- Circular Progress -->
+            <FrameLayout
+                android:id="@+id/fl_progress_circular"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true">
+                
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/progress_circular"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:indicatorColor="@color/primary_green"
+                    app:trackColor="@color/card_stroke"
+                    app:indicatorSize="48dp"
+                    app:trackThickness="4dp"
+                    app:indicatorDirectionCircular="clockwise"
+                    android:progress="68"
+                    android:max="100"/>
+                    
+                <TextView
+                    android:id="@+id/tv_goal_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="68%"
+                    android:textColor="@color/primary_green"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <!-- Linear Progress View -->
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progress_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:indicatorColor="@color/primary_green"
+            app:trackColor="@color/card_stroke"
+            app:trackThickness="8dp"
+            app:trackCornerRadius="4dp"
+            android:progress="68"
+            android:max="100"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark application theme. -->
+    <style name="Base.Theme.Finly" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/surface_white</item>
+        <item name="colorPrimaryContainer">@color/primary_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/primary_green_dark</item>
+        
+        <!-- Background and surface colors. -->
+        <item name="android:windowBackground">@color/background_gray</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        
+        <!-- Typography -->
+        <item name="android:fontFamily">sans-serif</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background_gray</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

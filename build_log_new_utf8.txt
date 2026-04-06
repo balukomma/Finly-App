@@ -1,0 +1,1105 @@
+﻿Initialized native services in: C:\Users\DELL\.gradle\native
+Initialized jansi services in: C:\Users\DELL\.gradle\native
+The client will now receive all logging from the daemon (pid: 20320). The daemon log file: C:\Users\DELL\.gradle\daemon\9.3.1\daemon-20320.out.log
+Starting 131st build in daemon [uptime: 8 hrs 24 mins 6.787 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [C:\Finly] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file 'C:\Finly\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Finly\build.gradle.kts'.
+Included projects: [root project 'Finly', project ':app']
+
+> Configure project :
+Evaluating root project 'Finly' using build file 'C:\Finly\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.7.3', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.21', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Finly\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.7.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.21']
+Resolved plugin [id: 'kotlin-kapt']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:dataBindingMergeDependencyArtifactsDebug', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:dataBindingGenBaseClassesDebug', task ':app:checkDebugAarMetadata', task ':app:mapDebugSourceSetPaths', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kaptGenerateStubsDebugKotlin', task ':app:kaptDebugKotlin', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:preBuild (Thread[#7501,Execution worker Thread 2,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:preDebugBuild (Thread[#7499,included builds,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#7499,included builds,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :app:dataBindingMergeDependencyArtifactsDebug (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:dataBindingMergeDependencyArtifactsDebug (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+Caching disabled for task ':app:dataBindingMergeDependencyArtifactsDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:dataBindingMergeDependencyArtifactsDebug' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:generateDebugResValues (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:generateDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:mergeDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:packageDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:parseDebugLocalResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:dataBindingGenBaseClassesDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:dataBindingGenBaseClassesDebug (Thread[#7504,Execution worker Thread 5,5,main]) started.
+
+> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE
+Caching disabled for task ':app:dataBindingGenBaseClassesDebug' because:
+  Build cache is disabled
+Skipping task ':app:dataBindingGenBaseClassesDebug' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#7504,Execution worker Thread 5,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#7504,Execution worker Thread 5,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#7504,Execution worker Thread 5,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#7504,Execution worker Thread 5,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#7504,Execution worker Thread 5,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#7504,Execution worker Thread 5,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#7504,Execution worker Thread 5,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#7501,Execution worker Thread 2,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:processDebugMainManifest (Thread[#7501,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugMainManifest
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Task ':app:processDebugMainManifest' is not up-to-date because:
+  Value of input property 'optionalFeatures' has changed for task ':app:processDebugMainManifest'
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\6c7204d2a9dbf69e571c6ca6ba2f35aa\workspace\transformed\jetified-viewbinding-8.7.3\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\becb3d764f296367400890ff932b7571\workspace\transformed\navigation-common-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a8137f0f9737adf570382781c99d4cab\workspace\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\d30bf79030387b5ba2d080be4b357e5e\workspace\transformed\navigation-runtime-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\656ec919f08193818b3eabfeb8f83568\workspace\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\012dd8d3fd4887cf21395d3898055713\workspace\transformed\navigation-fragment-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\92acb143b2cb93b95c134eb8c242e578\workspace\transformed\navigation-fragment-ktx-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\c6d3fc166f501b3c917ef3a56de7e602\workspace\transformed\navigation-ui-ktx-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1742a124bb51da58a4747ae464a73d96\workspace\transformed\navigation-ui-2.8.5\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\4aa852003000807a716ff77766d836e5\workspace\transformed\material-1.12.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\e77279d8365f5448a32e2d0cec4dd236\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\fe2f3cdb05913d9c342532e1b6ff10b0\workspace\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\bdd71974b9f2600fc225356298c94fed\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a03b1a60e54b4f1e4af14b6d13ce7b7c\workspace\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\2d1dbb6937b03ac472383423ef96faf7\workspace\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\6dff2484e99ebfda9bf2c0809d24d766\workspace\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\10fdaa894bc47f1b7f5d8544657b938b\workspace\transformed\fragment-1.6.2\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\0f4831d8fe5e71389496122e5af01cdf\workspace\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\03261c8151ef577a66815cb0aa4fe068\workspace\transformed\jetified-activity-1.8.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\c1254d92a0052457528a000a7c6c6ecc\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\70447ca1ddb0b63de2be6fc93be7ae0c\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\dc1a43fc6747050e67097a16f176374f\workspace\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\626d2e966b0d62bf6ea5ceeca717371b\workspace\transformed\transition-1.5.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\fd27dfe95e8acff98ad505bf713b8327\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f64aa3785a04012475cebf7d5d13a6d2\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8c8a23252c51925e9accabf19695c2c6\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\e01dbbad7f7f6a282a2cc35170a750a5\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\ea946297949e9ae060e65985438ea36f\workspace\transformed\loader-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a582996b5c666548ea4aaa84591f7be1\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f295abeac77ac19939baa145093c96e6\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8105638d75e439bd1fc012e829f0a8a1\workspace\transformed\customview-1.1.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f9de817b04817e2dabe351d523682412\workspace\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\127b6b9d54a1cd8c0f9f664c2bdb5a7d\workspace\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\2d663007e6ec321228efbd23be926fe8\workspace\transformed\jetified-lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\2d84cc0d3090edcb697e43c908df4fa9\workspace\transformed\jetified-lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\61c3a1968f7ddda2f163c2d15997f4dc\workspace\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\49aeb23db777e93da147216ef46906f8\workspace\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f7bdb231f88cc7d4b5e581b7a466c405\workspace\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a9ac3d0b0bd24a699690c4a0e0ff24cc\workspace\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\d7c0141a8cee97484a6583762cae844a\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\88816d30cce41b9155590da2ebc4053c\workspace\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1d2b172f534eb1b74cce569c5483d13c\workspace\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8341ac90ca770dcec5a14fba351ef14f\workspace\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\817b3ed65e128690149a624c33abde1b\workspace\transformed\jetified-core-ktx-1.15.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\293610fdfce5516ddc824546b269c964\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\173b2a35a617950e324e48e69ca8ee86\workspace\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\784286903631b953af1eb1139183876d\workspace\transformed\sqlite-framework-2.4.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1ab07ae7ff1d312b9482abddbd2f8fd9\workspace\transformed\sqlite-2.4.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\c80db847e3c044646658d347a4f09809\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\309c8059bf8ba0892497ad27e880149d\workspace\transformed\cardview-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a3bfc52cdde1741e4e8644dcb1796df7\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\534e9efca707f42e2cda2bb1b229b2f6\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\67e153997881715f36de751ea6626e2a\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\5b6406ac7f5cdf8e13f9d9aefe5e5a2d\workspace\transformed\jetified-tracing-1.2.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\053bd180a3dcfb24f20cf654eaa21b5c\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\450e90f25226695cf925fcd1a4025e2a\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1b94dcf371fc46eba04899c8493619bf\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a86d9a7ba0e7aa104653bdfd1a3537b5\workspace\transformed\print-1.0.0\AndroidManifest.xml
+Loading library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\333ec3357db134e5e7bd46c2664d9ac4\workspace\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml
+Merging main manifest C:\Finly\app\src\main\AndroidManifest.xml
+
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\6c7204d2a9dbf69e571c6ca6ba2f35aa\workspace\transformed\jetified-viewbinding-8.7.3\AndroidManifest.xml
+Merging manifest with lower [androidx.databinding:viewbinding:8.7.3] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.databinding:viewbinding:8.7.3] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\becb3d764f296367400890ff932b7571\workspace\transformed\navigation-common-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-common:2.8.5] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-common:2.8.5] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a8137f0f9737adf570382781c99d4cab\workspace\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-common-ktx:2.8.5] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-common-ktx:2.8.5] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\d30bf79030387b5ba2d080be4b357e5e\workspace\transformed\navigation-runtime-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-runtime:2.8.5] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-runtime:2.8.5] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\656ec919f08193818b3eabfeb8f83568\workspace\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-runtime-ktx:2.8.5] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-runtime-ktx:2.8.5] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\012dd8d3fd4887cf21395d3898055713\workspace\transformed\navigation-fragment-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-fragment:2.8.5] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-fragment:2.8.5] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\92acb143b2cb93b95c134eb8c242e578\workspace\transformed\navigation-fragment-ktx-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-fragment-ktx:2.8.5] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-fragment-ktx:2.8.5] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\c6d3fc166f501b3c917ef3a56de7e602\workspace\transformed\navigation-ui-ktx-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-ui-ktx:2.8.5] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-ui-ktx:2.8.5] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1742a124bb51da58a4747ae464a73d96\workspace\transformed\navigation-ui-2.8.5\AndroidManifest.xml
+Merging manifest with lower [androidx.navigation:navigation-ui:2.8.5] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.navigation:navigation-ui:2.8.5] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\4aa852003000807a716ff77766d836e5\workspace\transformed\material-1.12.0\AndroidManifest.xml
+Merging manifest with lower [com.google.android.material:material:1.12.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [com.google.android.material:material:1.12.0] AndroidManifest.xml:20:5-44
+application defined in both files...
+Merging application with lower [com.google.android.material:material:1.12.0] AndroidManifest.xml:22:5-20
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\e77279d8365f5448a32e2d0cec4dd236\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml
+Merging manifest with lower [androidx.constraintlayout:constraintlayout:2.2.0] AndroidManifest.xml:2:1-9:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.constraintlayout:constraintlayout:2.2.0] AndroidManifest.xml:5:5-44
+application defined in both files...
+Merging application with lower [androidx.constraintlayout:constraintlayout:2.2.0] AndroidManifest.xml:7:5-20
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\fe2f3cdb05913d9c342532e1b6ff10b0\workspace\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml
+Merging manifest with lower [androidx.appcompat:appcompat-resources:1.7.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.appcompat:appcompat-resources:1.7.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\bdd71974b9f2600fc225356298c94fed\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml
+Merging manifest with lower [androidx.appcompat:appcompat:1.7.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.appcompat:appcompat:1.7.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a03b1a60e54b4f1e4af14b6d13ce7b7c\workspace\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml
+Merging manifest with lower [androidx.emoji2:emoji2-views-helper:1.3.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.emoji2:emoji2-views-helper:1.3.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml
+Merging manifest with lower [androidx.emoji2:emoji2:1.3.0] AndroidManifest.xml:17:1-35:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.emoji2:emoji2:1.3.0] AndroidManifest.xml:21:5-44
+application defined in both files...
+Merging application with lower [androidx.emoji2:emoji2:1.3.0] AndroidManifest.xml:23:5-33:19
+Adopted [provider: null]
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\2d1dbb6937b03ac472383423ef96faf7\workspace\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.viewpager2:viewpager2:1.0.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.viewpager2:viewpager2:1.0.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\6dff2484e99ebfda9bf2c0809d24d766\workspace\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.fragment:fragment-ktx:1.6.2] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.fragment:fragment-ktx:1.6.2] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\10fdaa894bc47f1b7f5d8544657b938b\workspace\transformed\fragment-1.6.2\AndroidManifest.xml
+Merging manifest with lower [androidx.fragment:fragment:1.6.2] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.fragment:fragment:1.6.2] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\0f4831d8fe5e71389496122e5af01cdf\workspace\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml
+Merging manifest with lower [androidx.activity:activity-ktx:1.8.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.activity:activity-ktx:1.8.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\03261c8151ef577a66815cb0aa4fe068\workspace\transformed\jetified-activity-1.8.0\AndroidManifest.xml
+Merging manifest with lower [androidx.activity:activity:1.8.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.activity:activity:1.8.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\c1254d92a0052457528a000a7c6c6ecc\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml
+Merging manifest with lower [androidx.drawerlayout:drawerlayout:1.1.1] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.drawerlayout:drawerlayout:1.1.1] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\70447ca1ddb0b63de2be6fc93be7ae0c\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.coordinatorlayout:coordinatorlayout:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.coordinatorlayout:coordinatorlayout:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\dc1a43fc6747050e67097a16f176374f\workspace\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml
+Merging manifest with lower [androidx.slidingpanelayout:slidingpanelayout:1.2.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.slidingpanelayout:slidingpanelayout:1.2.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\626d2e966b0d62bf6ea5ceeca717371b\workspace\transformed\transition-1.5.0\AndroidManifest.xml
+Merging manifest with lower [androidx.transition:transition:1.5.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.transition:transition:1.5.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\fd27dfe95e8acff98ad505bf713b8327\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.dynamicanimation:dynamicanimation:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.dynamicanimation:dynamicanimation:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f64aa3785a04012475cebf7d5d13a6d2\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.vectordrawable:vectordrawable-animated:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.vectordrawable:vectordrawable-animated:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8c8a23252c51925e9accabf19695c2c6\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.vectordrawable:vectordrawable:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.vectordrawable:vectordrawable:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\e01dbbad7f7f6a282a2cc35170a750a5\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.legacy:legacy-support-core-utils:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.legacy:legacy-support-core-utils:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\ea946297949e9ae060e65985438ea36f\workspace\transformed\loader-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.loader:loader:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.loader:loader:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a582996b5c666548ea4aaa84591f7be1\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.recyclerview:recyclerview:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.recyclerview:recyclerview:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f295abeac77ac19939baa145093c96e6\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.viewpager:viewpager:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.viewpager:viewpager:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8105638d75e439bd1fc012e829f0a8a1\workspace\transformed\customview-1.1.0\AndroidManifest.xml
+Merging manifest with lower [androidx.customview:customview:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.customview:customview:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.window:window:1.0.0] AndroidManifest.xml:17:1-33:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.window:window:1.0.0] AndroidManifest.xml:20:5-22:41
+application defined in both files...
+Merging application with lower [androidx.window:window:1.0.0] AndroidManifest.xml:24:5-31:19
+Adopted [uses-library: null]
+Adopted [uses-library: null]
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml
+Merging manifest with lower [androidx.core:core:1.15.0] AndroidManifest.xml:17:1-30:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.core:core:1.15.0] AndroidManifest.xml:20:5-44
+Adopted [permission: null]
+Adopted [uses-permission: null]
+application defined in both files...
+Merging application with lower [androidx.core:core:1.15.0] AndroidManifest.xml:28:5-89
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f9de817b04817e2dabe351d523682412\workspace\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml
+Merging manifest with lower [androidx.savedstate:savedstate-ktx:1.2.1] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.savedstate:savedstate-ktx:1.2.1] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\127b6b9d54a1cd8c0f9f664c2bdb5a7d\workspace\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml
+Merging manifest with lower [androidx.savedstate:savedstate:1.2.1] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.savedstate:savedstate:1.2.1] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\2d663007e6ec321228efbd23be926fe8\workspace\transformed\jetified-lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\2d84cc0d3090edcb697e43c908df4fa9\workspace\transformed\jetified-lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\61c3a1968f7ddda2f163c2d15997f4dc\workspace\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-viewmodel:2.8.7] AndroidManifest.xml:2:1-5:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-viewmodel:2.8.7] AndroidManifest.xml:4:5-43
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\49aeb23db777e93da147216ef46906f8\workspace\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\f7bdb231f88cc7d4b5e581b7a466c405\workspace\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-runtime-android:2.8.7] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-runtime-android:2.8.7] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a9ac3d0b0bd24a699690c4a0e0ff24cc\workspace\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-livedata:2.8.7] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-livedata:2.8.7] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\d7c0141a8cee97484a6583762cae844a\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-process:2.8.7] AndroidManifest.xml:17:1-35:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-process:2.8.7] AndroidManifest.xml:21:5-44
+application defined in both files...
+Merging application with lower [androidx.lifecycle:lifecycle-process:2.8.7] AndroidManifest.xml:23:5-33:19
+provider#androidx.startup.InitializationProvider defined in both files...
+Merging provider#androidx.startup.InitializationProvider with lower [androidx.lifecycle:lifecycle-process:2.8.7] AndroidManifest.xml:24:9-32:20
+Adopted [meta-data: null]
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\88816d30cce41b9155590da2ebc4053c\workspace\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-livedata-core:2.8.7] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-livedata-core:2.8.7] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1d2b172f534eb1b74cce569c5483d13c\workspace\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\8341ac90ca770dcec5a14fba351ef14f\workspace\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\817b3ed65e128690149a624c33abde1b\workspace\transformed\jetified-core-ktx-1.15.0\AndroidManifest.xml
+Merging manifest with lower [androidx.core:core-ktx:1.15.0] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.core:core-ktx:1.15.0] AndroidManifest.xml:5:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\293610fdfce5516ddc824546b269c964\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml
+Merging manifest with lower [androidx.room:room-runtime:2.6.1] AndroidManifest.xml:17:1-31:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.room:room-runtime:2.6.1] AndroidManifest.xml:21:5-44
+application defined in both files...
+Merging application with lower [androidx.room:room-runtime:2.6.1] AndroidManifest.xml:23:5-29:19
+Adopted [service: null]
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\173b2a35a617950e324e48e69ca8ee86\workspace\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml
+Merging manifest with lower [androidx.room:room-ktx:2.6.1] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.room:room-ktx:2.6.1] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\784286903631b953af1eb1139183876d\workspace\transformed\sqlite-framework-2.4.0\AndroidManifest.xml
+Merging manifest with lower [androidx.sqlite:sqlite-framework:2.4.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.sqlite:sqlite-framework:2.4.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1ab07ae7ff1d312b9482abddbd2f8fd9\workspace\transformed\sqlite-2.4.0\AndroidManifest.xml
+Merging manifest with lower [androidx.sqlite:sqlite:2.4.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.sqlite:sqlite:2.4.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\c80db847e3c044646658d347a4f09809\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.cursoradapter:cursoradapter:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.cursoradapter:cursoradapter:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\309c8059bf8ba0892497ad27e880149d\workspace\transformed\cardview-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.cardview:cardview:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.cardview:cardview:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml
+Merging manifest with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:17:1-55:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:21:5-44
+application defined in both files...
+Merging application with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:23:5-53:19
+provider#androidx.startup.InitializationProvider defined in both files...
+Merging provider#androidx.startup.InitializationProvider with lower [androidx.profileinstaller:profileinstaller:1.4.0] AndroidManifest.xml:24:9-32:20
+Adopted [meta-data: null]
+Adopted [receiver: null]
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a3bfc52cdde1741e4e8644dcb1796df7\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml
+Merging manifest with lower [androidx.arch.core:core-runtime:2.2.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.arch.core:core-runtime:2.2.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\534e9efca707f42e2cda2bb1b229b2f6\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.interpolator:interpolator:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.interpolator:interpolator:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\67e153997881715f36de751ea6626e2a\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml
+Merging manifest with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:17:1-33:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:21:5-23:41
+application defined in both files...
+Merging application with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:25:5-31:19
+provider#androidx.startup.InitializationProvider defined in both files...
+Merging provider#androidx.startup.InitializationProvider with lower [androidx.startup:startup-runtime:1.1.1] AndroidManifest.xml:26:9-30:34
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\5b6406ac7f5cdf8e13f9d9aefe5e5a2d\workspace\transformed\jetified-tracing-1.2.0\AndroidManifest.xml
+Merging manifest with lower [androidx.tracing:tracing:1.2.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.tracing:tracing:1.2.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\053bd180a3dcfb24f20cf654eaa21b5c\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml
+Merging manifest with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:17:1-27:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:20:5-22:41
+application defined in both files...
+Merging application with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:24:5-25:19
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\450e90f25226695cf925fcd1a4025e2a\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.documentfile:documentfile:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.documentfile:documentfile:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\1b94dcf371fc46eba04899c8493619bf\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\a86d9a7ba0e7aa104653bdfd1a3537b5\workspace\transformed\print-1.0.0\AndroidManifest.xml
+Merging manifest with lower [androidx.print:print:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.print:print:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest C:\Users\DELL\.gradle\caches\9.3.1\transforms\333ec3357db134e5e7bd46c2664d9ac4\workspace\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml
+Merging manifest with lower [androidx.annotation:annotation-experimental:1.4.1] AndroidManifest.xml:2:1-7:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.annotation:annotation-experimental:1.4.1] AndroidManifest.xml:5:5-44
+Merging result: SUCCESS
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.finly.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.15.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.finly.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.15.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.15.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.finly.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.15.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.15.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Finly\app\src\main\AndroidManifest.xml:5:5-33:19
+18        android:allowBackup="true"
+18-->C:\Finly\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.15.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\cf5e6029cd7c50f035837a7ab813b8ca\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Finly\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Finly\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Finly\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Finly\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Finly\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Finly\app\src\main\AndroidManifest.xml:12:9-35
+28        android:theme="@style/Theme.Finly" >
+28-->C:\Finly\app\src\main\AndroidManifest.xml:13:9-43
+29        <activity
+29-->C:\Finly\app\src\main\AndroidManifest.xml:14:9-22:20
+30            android:name="com.finly.app.MainActivity"
+30-->C:\Finly\app\src\main\AndroidManifest.xml:15:13-41
+31            android:exported="true" >
+31-->C:\Finly\app\src\main\AndroidManifest.xml:16:13-36
+32            <intent-filter>
+32-->C:\Finly\app\src\main\AndroidManifest.xml:17:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Finly\app\src\main\AndroidManifest.xml:18:17-69
+33-->C:\Finly\app\src\main\AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Finly\app\src\main\AndroidManifest.xml:20:17-77
+35-->C:\Finly\app\src\main\AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+40            android:name="androidx.core.content.FileProvider"
+40-->C:\Finly\app\src\main\AndroidManifest.xml:25:13-62
+41            android:authorities="com.finly.app.provider"
+41-->C:\Finly\app\src\main\AndroidManifest.xml:26:13-60
+42            android:exported="false"
+42-->C:\Finly\app\src\main\AndroidManifest.xml:27:13-37
+43            android:grantUriPermissions="true" >
+43-->C:\Finly\app\src\main\AndroidManifest.xml:28:13-47
+44            <meta-data
+44-->C:\Finly\app\src\main\AndroidManifest.xml:29:13-31:54
+45                android:name="android.support.FILE_PATHS"
+45-->C:\Finly\app\src\main\AndroidManifest.xml:30:17-58
+46                android:resource="@xml/file_paths" />
+46-->C:\Finly\app\src\main\AndroidManifest.xml:31:17-51
+47        </provider>
+48        <provider
+48-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+50            android:authorities="com.finly.app.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\8feee331862fe79b5d724bb21faad49d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\DELL\.gradle\caches\9.3.1\transforms\d7c0141a8cee97484a6583762cae844a\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\DELL\.gradle\caches\9.3.1\transforms\d7c0141a8cee97484a6583762cae844a\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\DELL\.gradle\caches\9.3.1\transforms\d7c0141a8cee97484a6583762cae844a\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+59-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+60                android:value="androidx.startup" />
+60-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+61        </provider>
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\764588a92746011fb5083e6a39f7f77d\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+69
+70        <service
+70-->[androidx.room:room-runtime:2.6.1] C:\Users\DELL\.gradle\caches\9.3.1\transforms\293610fdfce5516ddc824546b269c964\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+71            android:name="androidx.room.MultiInstanceInvalidationService"
+71-->[androidx.room:room-runtime:2.6.1] C:\Users\DELL\.gradle\caches\9.3.1\transforms\293610fdfce5516ddc824546b269c964\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+72            android:directBootAware="true"
+72-->[androidx.room:room-runtime:2.6.1] C:\Users\DELL\.gradle\caches\9.3.1\transforms\293610fdfce5516ddc824546b269c964\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+73            android:exported="false" />
+73-->[androidx.room:room-runtime:2.6.1] C:\Users\DELL\.gradle\caches\9.3.1\transforms\293610fdfce5516ddc824546b269c964\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+74
+75        <receiver
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+77            android:directBootAware="false"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+78            android:enabled="true"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+79            android:exported="true"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+80            android:permission="android.permission.DUMP" >
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\DELL\.gradle\caches\9.3.1\transforms\db243fb40d49780bfab3c731db208532\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+92            </intent-filter>
+93        </receiver>
+94    </application>
+95
+96</manifest>
+
+Merged manifest saved to C:\Finly\app\build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml
+Resolve mutations for :app:processDebugManifest (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:processDebugManifest (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugManifest
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Task ':app:processDebugManifest' is not up-to-date because:
+  Input property 'mainMergedManifest' file C:\Finly\app\build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml has changed.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#7502,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:javaPreCompileDebug (Thread[#7501,Execution worker Thread 2,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugShaders (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugShaders (Thread[#7503,Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+Resolve mutations for :app:compileDebugShaders (Thread[#7503,Execution worker Thread 4,5,main]) started.
+:app:compileDebugShaders (Thread[#7503,Execution worker Thread 4,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugAssets (Thread[#7503,Execution worker Thread 4,5,main]) started.
+:app:generateDebugAssets (Thread[#7501,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugAssets (Thread[#7501,Execution worker Thread 2,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+Resolve mutations for :app:compressDebugAssets (Thread[#7501,Execution worker Thread 2,5,main]) started.
+:app:compressDebugAssets (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:compressDebugAssets UP-TO-DATE
+Caching disabled for task ':app:compressDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressDebugAssets' as it is up-to-date.
+Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:checkDebugDuplicateClasses (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:desugarDebugFileDependencies (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:desugarDebugFileDependencies (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarDebugFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexDebug (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:mergeExtDexDebug (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeLibDexDebug (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:mergeLibDexDebug (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeLibDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:mergeDebugJniLibFolders (Thread[#7506,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeDebugNativeLibs (Thread[#7506,Execution worker Thread 7,5,main]) started.
+:app:mergeDebugNativeLibs (Thread[#7504,Execution worker Thread 5,5,main]) started.
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+Skipping task ':app:mergeDebugNativeLibs' as it has no source files and no previous output files.
+Resolve mutations for :app:stripDebugDebugSymbols (Thread[#7504,Execution worker Thread 5,5,main]) started.
+:app:stripDebugDebugSymbols (Thread[#7500,Execution worker,5,main]) started.
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+Skipping task ':app:stripDebugDebugSymbols' as it has no source files and no previous output files.
+Resolve mutations for :app:validateSigningDebug (Thread[#7500,Execution worker,5,main]) started.
+:app:validateSigningDebug (Thread[#7500,Execution worker,5,main]) started.
+
+> Task :app:validateSigningDebug UP-TO-DATE
+Caching disabled for task ':app:validateSigningDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:validateSigningDebug' as it is up-to-date.
+Resolve mutations for :app:writeDebugAppMetadata (Thread[#7500,Execution worker,5,main]) started.
+:app:writeDebugAppMetadata (Thread[#7500,Execution worker,5,main]) started.
+
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+Caching disabled for task ':app:writeDebugAppMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#7500,Execution worker,5,main]) started.
+:app:writeDebugSigningConfigVersions (Thread[#7500,Execution worker,5,main]) started.
+
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+
+> Task :app:processDebugManifestForPackage
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Task ':app:processDebugManifestForPackage' is not up-to-date because:
+  Input property 'mergedManifests' file C:\Finly\app\build\intermediates\merged_manifests\debug\processDebugManifest\AndroidManifest.xml has changed.
+Resolve mutations for :app:processDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:processDebugResources (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugResources
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Task ':app:processDebugResources' is not up-to-date because:
+  Value of input property 'useStableIds' has changed for task ':app:processDebugResources'
+The input changes require a full rebuild for incremental task ':app:processDebugResources'.
+AAPT2 aapt2-8.7.3-12006047-windows Daemon #0: starting
+Aapt output file C:\Finly\app\build\intermediates\linked_resources_binary_format\debug\processDebugResources\linked-resources-binary-format-debug.ap_
+Resolve mutations for :app:kaptGenerateStubsDebugKotlin (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:kaptGenerateStubsDebugKotlin (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:kaptGenerateStubsDebugKotlin
+Caching disabled for BuildToolsApiClasspathEntrySnapshotTransform: C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar because:
+  Build cache is disabled
+Caching disabled for task ':app:kaptGenerateStubsDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptGenerateStubsDebugKotlin' is not up-to-date because:
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file C:\Users\DELL\.gradle\caches\9.3.1\transforms\fa5a0d48b38978e87075d74c439caeac\workspace\transformed\R_jar-snapshot.bin has been removed.
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file C:\Users\DELL\.gradle\caches\9.3.1\transforms\c951baf4763a8f3086242944c8e58269\workspace\transformed\R_jar-snapshot.bin has been added.
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=true, modifiedFiles=[C:\Users\DELL\.gradle\caches\9.3.1\transforms\c951baf4763a8f3086242944c8e58269\workspace\transformed\R_jar-snapshot.bin], deletedFiles=[C:\Users\DELL\.gradle\caches\9.3.1\transforms\fa5a0d48b38978e87075d74c439caeac\workspace\transformed\R_jar-snapshot.bin], classpathChanges=ToBeComputedByIncrementalCompiler, workingDir=C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\local-state\build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, icFeatures=IncrementalCompilationFeatures(withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false), outputFiles=[C:\Finly\app\build\tmp\kapt3\incrementalData\debug, C:\Finly\app\build\tmp\kapt3\stubs\debug, C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable, C:\Finly\app\build\kotlin\kaptGenerateStubsDebugKotlin\local-state])
+w: Kapt currently doesn't support language version 2.0+. Falling back to 1.9.
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:kaptDebugKotlin (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:kaptDebugKotlin (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:kaptDebugKotlin
+Caching disabled for StructureTransformAction: C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar because:
+  Build cache is disabled
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+Caching disabled for task ':app:kaptDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptDebugKotlin' is not up-to-date because:
+  Input property 'classpathStructure' file C:\Users\DELL\.gradle\caches\9.3.1\transforms\8ef280b2af3e5a73eca866d9a79fd9f9\workspace\transformed\output.bin has been added.
+  Input property 'classpathStructure' file C:\Users\DELL\.gradle\caches\9.3.1\transforms\a2353be626c01fc184c90b9590395cdd\workspace\transformed\output.bin has been removed.
+  Input property 'internalNonAbiClasspath$kotlin_gradle_plugin_common' file C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar has changed.
+Running kapt annotation processing using the Gradle Worker API
+Full list of impacted classpath names: [androidx/dynamicanimation/R$id, androidx/viewpager/R$layout, com/finly/app/R$id, androidx/dynamicanimation/R$layout, androidx/coordinatorlayout/R$drawable, androidx/drawerlayout/R$layout, androidx/window/R$id, androidx/constraintlayout/widget/R$id, androidx/recyclerview/R$drawable, androidx/lifecycle/viewmodel/R$id, androidx/vectordrawable/animated/R$layout, com/google/android/material/R$layout, androidx/viewpager2/R$drawable, androidx/legacy/coreutils/R$id, androidx/recyclerview/R$id, androidx/vectordrawable/R$layout, androidx/legacy/coreutils/R$layout, androidx/customview/R$drawable, androidx/appcompat/R$drawable, androidx/lifecycle/runtime/R$id, androidx/viewpager2/R$layout, com/finly/app/R$color, androidx/recyclerview/R$layout, androidx/dynamicanimation/R$drawable, com/google/android/material/R$color, androidx/core/R$id, androidx/savedstate/R$id, androidx/drawerlayout/R$id, androidx/core/R$layout, androidx/viewpager2/R$id, androidx/appcompat/R$layout, androidx/navigation/fragment/R$id, androidx/viewpager/R$id, androidx/loader/R$drawable, androidx/loader/R$layout, com/finly/app/R$drawable, androidx/vectordrawable/animated/R$drawable, androidx/customview/R$id, androidx/transition/R$id, com/google/android/material/R$id, androidx/loader/R$id, androidx/navigation/R$id, androidx/appcompat/R$color, androidx/fragment/R$id, com/google/android/material/R$drawable, androidx/activity/R$id, androidx/appcompat/R$id, androidx/vectordrawable/R$drawable, androidx/coordinatorlayout/R$layout, androidx/viewpager/R$drawable, com/finly/app/R$layout, androidx/vectordrawable/R$id, androidx/legacy/coreutils/R$drawable, androidx/drawerlayout/R$drawable, androidx/customview/R$layout, androidx/coordinatorlayout/R$id, androidx/core/R$drawable, androidx/vectordrawable/animated/R$id]. Took 105ms.
+Using workers NONE isolation mode to run kapt
+Resolve mutations for :app:compileDebugKotlin (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:compileDebugKotlin (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:compileDebugKotlin
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file C:\Users\DELL\.gradle\caches\9.3.1\transforms\fa5a0d48b38978e87075d74c439caeac\workspace\transformed\R_jar-snapshot.bin has been removed.
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file C:\Users\DELL\.gradle\caches\9.3.1\transforms\c951baf4763a8f3086242944c8e58269\workspace\transformed\R_jar-snapshot.bin has been added.
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\main\kotlin', not found
+file or directory 'C:\Finly\app\src\debug\java', not found
+Kotlin source files: C:\Finly\app\src\main\java\com\finly\app\BarChartView.kt, C:\Finly\app\src\main\java\com\finly\app\ContributionAdapter.kt, C:\Finly\app\src\main\java\com\finly\app\data\AppDatabase.kt, C:\Finly\app\src\main\java\com\finly\app\data\Contribution.kt, C:\Finly\app\src\main\java\com\finly\app\data\Goal.kt, C:\Finly\app\src\main\java\com\finly\app\data\GoalDao.kt, C:\Finly\app\src\main\java\com\finly\app\data\GoalRepository.kt, C:\Finly\app\src\main\java\com\finly\app\data\SettingsRepository.kt, C:\Finly\app\src\main\java\com\finly\app\data\Transaction.kt, C:\Finly\app\src\main\java\com\finly\app\data\TransactionDao.kt, C:\Finly\app\src\main\java\com\finly\app\data\TransactionRepository.kt, C:\Finly\app\src\main\java\com\finly\app\DonutChartView.kt, C:\Finly\app\src\main\java\com\finly\app\FinlyViewModel.kt, C:\Finly\app\src\main\java\com\finly\app\GoalAdapter.kt, C:\Finly\app\src\main\java\com\finly\app\HeatmapView.kt, C:\Finly\app\src\main\java\com\finly\app\LineChartView.kt, C:\Finly\app\src\main\java\com\finly\app\MainActivity.kt, C:\Finly\app\src\main\java\com\finly\app\TransactionAdapter.kt, C:\Finly\app\src\main\java\com\finly\app\WeeklyBarChartView.kt
+Java source files: C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ActivityMainBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\DialogAddSavingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\DialogClearAllDataBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\DialogDeleteTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentAddTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentCreateGoalBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentCurrencySelectionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentDashboardBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentEditTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentExportDataBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentGoalDetailsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentGoalsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentInsightsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentMonthlyIncomeBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentNotificationSettingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentOnboardingBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentProfileSettingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSettingsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSetup1Binding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSetup2Binding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSmartAlertsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentSplashBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentTransactionDetailsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentTransactionsBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\FragmentWeeklyComparisonBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemAddCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemBudgetCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemContributionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemCurrencyBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemDateHeaderBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemFrequentTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemGoalBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemInsightCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemLegendBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemMetricBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemNoSpendCategoryBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemSmartAlertBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemTransactionBinding.java, C:\Finly\app\build\generated\data_binding_base_class_source_out\debug\out\com\finly\app\databinding\ItemWeekCategoryBinding.java, C:\Finly\app\build\generated\source\kapt\debug\com\finly\app\data\AppDatabase_Impl.java, C:\Finly\app\build\generated\source\kapt\debug\com\finly\app\data\GoalDao_Impl.java, C:\Finly\app\build\generated\source\kapt\debug\com\finly\app\data\TransactionDao_Impl.java
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=true, modifiedFiles=[C:\Users\DELL\.gradle\caches\9.3.1\transforms\c951baf4763a8f3086242944c8e58269\workspace\transformed\R_jar-snapshot.bin], deletedFiles=[C:\Users\DELL\.gradle\caches\9.3.1\transforms\fa5a0d48b38978e87075d74c439caeac\workspace\transformed\R_jar-snapshot.bin], classpathChanges=ToBeComputedByIncrementalCompiler, workingDir=C:\Finly\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Finly\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, icFeatures=IncrementalCompilationFeatures(withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false), outputFiles=[C:\Finly\app\build\tmp\kotlin-classes\debug, C:\Finly\app\build\kotlin\compileDebugKotlin\cacheable, C:\Finly\app\build\kotlin\compileDebugKotlin\local-state])
+w: file:///C:/Finly/app/src/main/java/com/finly/app/MainActivity.kt:120:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Please add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Finly/app/src/main/java/com/finly/app/MainActivity.kt:127:19 'fun onBackPressed(): Unit' is deprecated. Deprecated in Java.
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+Custom actions are attached to task ':app:compileDebugJavaWithJavac'.
+Caching disabled for task ':app:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugJavaWithJavac' as it is up-to-date.
+No compile result for :app:compileDebugJavaWithJavac
+Resolve mutations for :app:processDebugJavaRes (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:processDebugJavaRes (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugJavaRes UP-TO-DATE
+file or directory 'C:\Finly\app\src\main\resources', not found
+file or directory 'C:\Finly\app\src\debug\resources', not found
+Caching disabled for task ':app:processDebugJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+Resolve mutations for :app:mergeDebugJavaResource (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:mergeDebugJavaResource (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJavaResource' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mergeDebugJavaResource' as it is up-to-date.
+Resolve mutations for :app:dexBuilderDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:dexBuilderDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:dexBuilderDebug
+Caching disabled for task ':app:dexBuilderDebug' because:
+  Build cache is disabled
+Task ':app:dexBuilderDebug' is not up-to-date because:
+  Value of input property 'dexParams.errorFormatMode' has changed for task ':app:dexBuilderDebug'
+The input changes require a full rebuild for incremental task ':app:dexBuilderDebug'.
+Dex builder is incremental : false 
+Processing input C:\Finly\app\build\tmp\kotlin-classes\debug
+Processing input C:\Finly\app\build\tmp\kapt3\classes\debug
+Processing input C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes
+Dexing C:\Finly\app\build\tmp\kotlin-classes\debug
+Dexing C:\Finly\app\build\tmp\kapt3\classes\debug
+Dexing C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Processing input C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar
+Dexing C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar
+Dexing 'C:\Finly\app\build\tmp\kotlin-classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\tmp\kapt3\classes\debug' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_0.jar'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_1.jar'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_2.jar'
+Dexing 'C:\Finly\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_3.jar'
+Done with all dex archive conversions
+Resolve mutations for :app:mergeProjectDexDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:mergeProjectDexDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeProjectDexDebug
+Caching disabled for task ':app:mergeProjectDexDebug' because:
+  Build cache is disabled
+Task ':app:mergeProjectDexDebug' is not up-to-date because:
+  Input property 'dexDirs' file C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a18055e562fa34f06badb05cfac902f4c538cca6261685721be984017a17fb1b_0.jar has been removed.
+  Input property 'dexDirs' file C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a18055e562fa34f06badb05cfac902f4c538cca6261685721be984017a17fb1b_1.jar has been removed.
+  Input property 'dexDirs' file C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a18055e562fa34f06badb05cfac902f4c538cca6261685721be984017a17fb1b_2.jar has been removed.
+  and more...
+Merging to 'C:\Finly\app\build\intermediates\dex\debug\mergeProjectDexDebug\0' with D8 from all or a subset of dex files in C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_0.jar, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_1.jar, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_2.jar, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\a2bb938f2a022d70c08517e0700f4c92a9b88645bd0916f1ec3be42416133745_3.jar, and from all global synthetics files in 
+Merging to 'C:\Finly\app\build\intermediates\dex\debug\mergeProjectDexDebug\2' with D8 from all or a subset of dex files in C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, and from all global synthetics files in 
+Merging to 'C:\Finly\app\build\intermediates\dex\debug\mergeProjectDexDebug\12' with D8 from all or a subset of dex files in C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, C:\Finly\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, and from all global synthetics files in 
+Resolve mutations for :app:packageDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:packageDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:packageDebug
+Custom actions are attached to task ':app:packageDebug'.
+Caching disabled for task ':app:packageDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:packageDebug' is not up-to-date because:
+  Value of input property 'abiFilters' has changed for task ':app:packageDebug'
+  Value of input property 'deterministicEntryOrder' has changed for task ':app:packageDebug'
+The input changes require a full rebuild for incremental task ':app:packageDebug'.
+Resolve mutations for :app:createDebugApkListingFileRedirect (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:createDebugApkListingFileRedirect (Thread[#7502,Execution worker Thread 3,5,main]) started.
+
+> Task :app:createDebugApkListingFileRedirect
+Caching disabled for task ':app:createDebugApkListingFileRedirect' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:createDebugApkListingFileRedirect' is not up-to-date because:
+  Input property 'listingFile' file C:\Finly\app\build\intermediates\apk\debug\output-metadata.json has been removed.
+  Input property 'listingFile' file C:\Finly\app\build\outputs\apk\debug\output-metadata.json has been added.
+Resolve mutations for :app:assembleDebug (Thread[#7502,Execution worker Thread 3,5,main]) started.
+:app:assembleDebug (Thread[#7503,Execution worker Thread 4,5,main]) started.
+
+> Task :app:assembleDebug
+Skipping task ':app:assembleDebug' as it has no actions.
+AAPT2 aapt2-8.7.3-12006047-windows Daemon #0: shutdown
+
+[Incubating] Problems report is available at: file:///C:/Finly/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 15s
+37 actionable tasks: 11 executed, 26 up-to-date
+Watched directory hierarchies: [C:\Finly]
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html

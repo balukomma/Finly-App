@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Finly" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/surface_white</item>
+        <item name="colorPrimaryContainer">@color/primary_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/primary_green_dark</item>
+        
+        <!-- Background and surface colors. -->
+        <item name="android:windowBackground">@drawable/bg_app_wallpaper</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        
+        <!-- Typography -->
+        <item name="android:fontFamily">sans-serif</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background_gray</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Finly" parent="Base.Theme.Finly" />
+
+    <!-- Custom Button Style -->
+    <style name="Widget.Finly.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Finly.Medium</item>
+        <item name="backgroundTint">@color/primary_green</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">@color/surface_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Shape Appearance -->
+    <style name="ShapeAppearance.Finly.Medium" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:paddingHorizontal="24dp"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/step_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Step 2 of 2"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginTop="12dp"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/bg_progress_stepped"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step_label" />
+
+    <TextView
+        android:id="@+id/setup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Set your monthly budget"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar" />
+
+    <!-- Total Budget -->
+    <LinearLayout
+        android:id="@+id/ll_total_budget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/setup_title">
+
+        <EditText
+            android:id="@+id/et_total_budget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="₹ 0"
+            android:inputType="number"
+            android:text="₹ 30000"
+            android:textColor="@color/primary_green"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="2.5dp"
+            android:layout_marginTop="-4dp"
+            android:background="@color/primary_green" />
+    </LinearLayout>
+
+    <!-- Categories Grid -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/grid_categories"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_start"
+        app:layout_constraintTop_toBottomOf="@id/ll_total_budget">
+
+        <include
+            android:id="@+id/item_food"
+            layout="@layout/item_budget_category"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintBottom_toTopOf="@id/item_shopping"
+            app:layout_constraintEnd_toStartOf="@id/item_transport"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/item_transport"
+            layout="@layout/item_budget_category"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintBottom_toTopOf="@id/item_bills"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/item_food"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/item_shopping"
+            layout="@layout/item_budget_category"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/item_bills"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_food" />
+
+        <include
+            android:id="@+id/item_bills"
+            layout="@layout/item_budget_category"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/item_shopping"
+            app:layout_constraintTop_toBottomOf="@id/item_transport" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start"
+        style="@style/Widget.Finly.Button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Start Tracking"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:includeFontPadding="false"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
